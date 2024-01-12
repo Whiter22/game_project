@@ -10,17 +10,28 @@ class Game:
         self.player = pg.sprite.GroupSingle(Player(midd))
         # self.bullets = pg.sprite.Group()
         self.asteroids = pg.sprite.Group()
+        self.score = 0
+        self.font = pg.font.Font('font/Pixeled.ttf', 25)
         for _ in range(18):
             self.asteroids.add(Asteroid(midd, 60))
+
+
+    def show_score(self):
+        score_surf = self.font.render(f'SCORE: {self.score}', False, 'Red')
+        score_rect = score_surf.get_rect(topleft = (midd[0] - (score_surf.get_width()/2), 0))
+        main_window.blit(score_surf, score_rect)
+
 
     def detect_collision(self):
         for bullet in self.player.sprite.bullets:
             if pg.sprite.spritecollide(bullet, self.asteroids, True):
+                self.score += 200
                 bullet.kill()
 
         for asteroid in self.asteroids:
             if pg.sprite.spritecollide(asteroid, self.player, False):
                 self.player.sprite.health -= 1
+                self.score -= 300
                 asteroid.kill()
                 if(self.player.sprite.health == 0):
                     print('GAME_OVER\n')
@@ -39,6 +50,7 @@ class Game:
         end = self.end_point(midd, mouse_pos, 45)
         pg.draw.line(main_window, (255, 255, 0), midd, end, 10)
 
+        self.show_score()
         self.player.draw(main_window)
         self.player.update(main_window)
         # bullets.draw(main_window)
@@ -85,6 +97,18 @@ while(True):
     
     for event in pg.event.get():
         if event.type == pg.QUIT:
+            with open('game_info/g_info.txt', 'a+') as file:
+                file.seek(0)
+                lines = file.readlines()
+                print(len(lines))
+                last_l = lines[-1].strip()
+                game_number_start = last_l.find('Game_Number:') + len('Game_Number:')
+                game_num_end = last_l.find('Points:')
+                game_num_s = last_l[game_number_start:game_num_end].strip(' ')
+
+                game_num = int(game_num_s)
+                game_num += 1
+                file.write(f'\nGame_Number: {game_num}\t\tPoints: {game.score}\t\tLeft_Alive: {len(game.asteroids)}\n')
             pg.quit()
             sys.exit()
         if event.type == pg.MOUSEBUTTONDOWN:

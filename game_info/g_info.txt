@@ -1,0 +1,2 @@
+Game_Number: 0		Points: 0		Left_Alive: 0
+Game_Number: 1		Points: 900		Left_Alive: 6
