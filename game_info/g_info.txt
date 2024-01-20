@@ -1,2 +1,70 @@
 Game_Number: 0		Points: 0		Left_Alive: 0
 Game_Number: 1		Points: 900		Left_Alive: 6
+
+Game_Number: 2		Points: 1100		Left_Alive: 0
+
+Game_Number: 3		Points: 2600		Left_Alive: 0
+
+Game_Number: 4		Points: 3100		Left_Alive: 0
+
+Game_Number: 5		Points: 1000		Left_Alive: 13
+
+Game_Number: 6		Points: 3400		Left_Alive: 1
+
+Game_Number: 7		Points: 3600		Left_Alive: 0
+
+Game_Number: 8		Points: 3600		Left_Alive: 0
+
+Game_Number: 9		Points: 0		Left_Alive: 18
+
+Game_Number: 10		Points: 3100		Left_Alive: 0
+
+Game_Number: 11		Points: 7200		Left_Alive: 0
+
+Game_Number: 12		Points: 4700		Left_Alive: 0
+
+Game_Number: 13		Points: -2500		Left_Alive: 0
+
+Game_Number: 14		Points: 0		Left_Alive: 36
+
+Game_Number: 15		Points: 4700		Left_Alive: 0
+
+Game_Number: 16		Points: 0		Left_Alive: 36
+
+Game_Number: 17		Points: 7200		Left_Alive: 0
+
+Game_Number: 18		Points: -600		Left_Alive: 14
+
+Game_Number: 19		Points: -700		Left_Alive: 32
+
+Game_Number: 20		Points: -6900		Left_Alive: 13
+
+Game_Number: 21		Points: 6700		Left_Alive: 0
+
+Game_Number: 22		Points: 6000		Left_Alive: 0
+
+Game_Number: 23		Points: 6500		Left_Alive: 0
+
+Game_Number: 24		Points: 6200		Left_Alive: 0
+
+Game_Number: 25		Points: 700		Left_Alive: 25
+
+Game_Number: 26		Points: -100		Left_Alive: 29
+
+Game_Number: 27		Points: 1300		Left_Alive: 22
+
+Game_Number: 28		Points: 7200		Left_Alive: 0
+
+Game_Number: 29		Points: 6700		Left_Alive: 0
+
+Game_Number: 30		Points: 6500		Left_Alive: 0
+
+Game_Number: 31		Points: 0		Left_Alive: 36
+
+Game_Number: 32		Points: 0		Left_Alive: 36
+
+Game_Number: 33		Points: 8500		Left_Alive: 50
+
+Game_Number: 34		Points: 18900		Left_Alive: 0
+
+Game_Number: 35		Points: 16700		Left_Alive: 8

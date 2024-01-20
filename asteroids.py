@@ -28,7 +28,7 @@ class Asteroid(pg.sprite.Sprite):
         self.image.fill(self.color)
 
         while True:
-            self.head_xy = (r.uniform(0.0, 800.0), r.uniform(0.0, 640.0))
+            self.head_xy = (r.uniform(0.0, 1280.0), r.uniform(0.0, 720.0))
             if self.head_xy not in USED_XY and np.linalg.norm(np.array(midd) - np.array(self.head_xy)) >= radius + 300:
                 USED_XY.add(self.head_xy)
                 break
