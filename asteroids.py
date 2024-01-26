@@ -35,12 +35,12 @@ class Asteroid(pg.sprite.Sprite):
 
         self.rect = self.image.get_rect(topleft = self.head_xy)
 
-        if(self.color == COLORS['RED']):
-            self.health = 3
-        elif(self.color == COLORS['BLUE']):
-            self.health = 2
-        else:
-            self.health = 1
+        # if(self.color == COLORS['RED']):
+        #     self.health = 3
+        # elif(self.color == COLORS['BLUE']):
+        #     self.health = 2
+        # else:
+        #     self.health = 1
 
         self._calc_coeff(midd)
 

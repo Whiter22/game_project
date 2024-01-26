@@ -68,3 +68,147 @@ Game_Number: 33		Points: 8500		Left_Alive: 50
 Game_Number: 34		Points: 18900		Left_Alive: 0
 
 Game_Number: 35		Points: 16700		Left_Alive: 8
+
+Game_Number: 36		Points: 12300		Left_Alive: 29
+
+Game_Number: 37		Points: 10900		Left_Alive: 37
+
+Game_Number: 38		Points: 11900		Left_Alive: 32
+
+Game_Number: 39		Points: 8700		Left_Alive: 47
+
+Game_Number: 40		Points: -1200		Left_Alive: 96
+
+Game_Number: 41		Points: 0		Left_Alive: 100
+
+Game_Number: 42		Points: 400		Left_Alive: 0
+
+Game_Number: 43		Points: 400		Left_Alive: 0
+
+Game_Number: 44		Points: 0		Left_Alive: 2
+
+Game_Number: 45		Points: 0		Left_Alive: 73
+
+Game_Number: 46		Points: 0		Left_Alive: 100
+
+Game_Number: 47		Points: 1000		Left_Alive: 95
+
+Game_Number: 48		Points: 9100		Left_Alive: 44
+
+Game_Number: 49		Points: -500		Left_Alive: 95
+
+Game_Number: 50		Points: 200		Left_Alive: 99
+
+Game_Number: 51		Points: 4900		Left_Alive: 67
+
+Game_Number: 52		Points: 2800		Left_Alive: 86
+
+Game_Number: 53		Points: 1100		Left_Alive: 92
+
+Game_Number: 54		Points: 0		Left_Alive: 100
+
+Game_Number: 55		Points: 0		Left_Alive: 100
+
+Game_Number: 56		Points: 1700		Left_Alive: 84
+
+Game_Number: 57		Points: 2100		Left_Alive: 82
+
+Game_Number: 58		Points: -900		Left_Alive: 97
+
+Game_Number: 59		Points: 600		Left_Alive: 97
+
+Game_Number: 60		Points: 10500		Left_Alive: 39
+
+Game_Number: 61		Points: 8900		Left_Alive: 44
+
+Game_Number: 62		Points: 6500		Left_Alive: 44
+
+Game_Number: 63		Points: -1500		Left_Alive: 95
+
+Game_Number: 64		Points: -200		Left_Alive: 96
+
+Game_Number: 65		Points: 12100		Left_Alive: 0
+
+Game_Number: 66		Points: 4900		Left_Alive: 48
+
+Game_Number: 67		Points: 3400		Left_Alive: 40
+
+Game_Number: 68		Points: 19300		Left_Alive: 0
+
+Game_Number: 69		Points: -100		Left_Alive: 98
+
+Game_Number: 70		Points: -900		Left_Alive: 2303
+
+Game_Number: 71		Points: 23900		Left_Alive: 0
+
+Game_Number: 72		Points: 13800		Left_Alive: 41
+
+Game_Number: 73		Points: 9600		Left_Alive: 27
+
+Game_Number: 74		Points: 18000		Left_Alive: 22
+
+Game_Number: 75		Points: -1500		Left_Alive: 11597
+
+Game_Number: 76		Points: 400		Left_Alive: 248
+
+Game_Number: 77		Points: 2000		Left_Alive: 93
+
+Game_Number: 78		Points: -100		Left_Alive: 98
+
+Game_Number: 79		Points: 18400		Left_Alive: 6
+
+Game_Number: 80		Points: 33300		Left_Alive: 13
+
+Game_Number: 81		Points: 42600		Left_Alive: 12
+
+Game_Number: 82		Points: 21800		Left_Alive: 44
+
+Game_Number: 83		Points: -1000		Left_Alive: 118
+
+Game_Number: 84		Points: 5300		Left_Alive: 70
+
+Game_Number: 85		Points: -1500		Left_Alive: 117
+
+Game_Number: 86		Points: 5200		Left_Alive: 75
+
+Game_Number: 87		Points: 7700		Left_Alive: 85
+
+Game_Number: 88		Points: 400		Left_Alive: 99
+
+Game_Number: 89		Points: 5300		Left_Alive: 72
+
+Game_Number: 90		Points: 0		Left_Alive: 1
+
+Game_Number: 91		Points: 0		Left_Alive: 1
+
+Game_Number: 92		Points: 5100		Left_Alive: 95
+
+Game_Number: 93		Points: 400		Left_Alive: 99
+
+Game_Number: 94		Points: 0		Left_Alive: 1
+
+Game_Number: 95		Points: 0		Left_Alive: 1
+
+Game_Number: 96		Points: 0		Left_Alive: 1
+
+Game_Number: 97		Points: 0		Left_Alive: 110
+
+Game_Number: 98		Points: 1100		Left_Alive: 102
+
+Game_Number: 99		Points: 48600		Left_Alive: 17
+
+Game_Number: 100		Points: 1100		Left_Alive: 87
+
+Game_Number: 101		Points: 5100		Left_Alive: 65
+
+Game_Number: 102		Points: -1500		Left_Alive: 97
+
+Game_Number: 103		Points: 0		Left_Alive: 120
+
+Game_Number: 104		Points: -300		Left_Alive: 151
+
+Game_Number: 105		Points: 3800		Left_Alive: 9
+
+Game_Number: 106		Points: 14300		Left_Alive: 213
+
+Game_Number: 107		Points: 18500		Left_Alive: 108
